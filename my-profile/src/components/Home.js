@@ -1,12 +1,12 @@
 import React from 'react';
-import my from '../images/my.jpg'
+import profile from '../images/profile.jpg'
 import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div>
+        <div className="ui container">
             <h1 className="ui center aligned icon header">
-            <img class="ui medium circular image" src={my} style={{width:"200px", height:"200px"}} />
+            <img class="ui medium circular image" src={profile} style={{width:"200px", height:"200px"}} alt="img" />
                 {/* <i class="circular users icon"></i> */}
                 I am Dilan Madhusanka
             </h1>
@@ -22,18 +22,18 @@ const Home = () => {
             <div className="ui center aligned container">
                 <div class="ui relaxed horizontal list">
                     <div class="item">
-                        <div class="content">
-                            <Link class="header"><i className="facebook square icon" /></Link>
+                        <div className="content">
+                            <Link className="header"><i className="facebook square icon black big" /></Link>
                         </div>
                     </div>
                     <div class="item">
                         <div class="content">
-                            <a class="header"><i className="linkedin icon" /></a>
+                            <Link class="header"><i className="linkedin icon black big" /></Link>
                         </div>
                     </div>
                     <div class="item">
                         <div class="content">
-                        <Link class="header"><i className="github icon" /></Link>
+                        <Link class="header"><i className="github icon black big" /></Link>
                         </div>
                     </div>
                 </div>
