@@ -10,7 +10,7 @@ const Education = () => {
             <div className="ui items">
             <div className="item">
                     <div className="image">
-                        <img src={vidya} />
+                        <img src={vidya} alt="vidyakara isuru school"/>
                     </div>
                     <div className="content">
                         <Link className="header" to="" style={{color:"white"}}>R/ Vidyakara Isuru School</Link>
@@ -31,7 +31,7 @@ const Education = () => {
 
                 <div className="item">
                     <div className="image">
-                        <img src={scc} />
+                        <img src={scc} alt="scc" />
                     </div>
                     <div className="content">
                         <Link className="header" to="" style={{color:"white"}}>Sivali Central College</Link>
@@ -51,7 +51,7 @@ const Education = () => {
                 </div>
                 <div className="item">
                     <div className="image">
-                        <img src={uok} />
+                        <img src={uok} alt="uok" />
                     </div>
                     <div className="content">
                         <Link className="header" to="" style={{color:"white"}} >University of Kelaniya</Link>
