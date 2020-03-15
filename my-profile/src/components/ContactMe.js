@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialMedia from './SocialMedia';
 
 const ContactUs = () => {
     return (
@@ -38,6 +39,7 @@ const ContactUs = () => {
                 </div> */}
             </div>
         </div>
+        <SocialMedia />
         </div>
     );
 }
