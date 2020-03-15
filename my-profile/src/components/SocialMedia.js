@@ -2,27 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const SocialMedia = () => {
+    const style = { marginLeft:"10px"}
     return (
-        <div>
-            <div className="ui center aligned container">
-                <div class="ui relaxed horizontal list">
-                    <div class="item">
-                        <div className="content">
-                            <Link className="header" onClick={() => window.open("https://www.facebook.com/dilan.madhusanka119", "_blank")}><i className="facebook square icon black big" /></Link>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="content">
-                            <Link class="header" onClick={() => window.open("https://www.linkedin.com/in/dilan-madhusanka-533ba615b/", "_blank")}><i className="linkedin icon black big" /></Link>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="content">
-                        <Link class="header" onClick={() => window.open("https://github.com/DilanMadhusanka", "_blank")}><i className="github icon black big" /></Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div className="ui text center aligned container">
+            <Link class="ui circular facebook icon button" onClick={() => window.open("https://www.facebook.com/dilan.madhusanka119", "_blank")}>
+                <i class="facebook icon"></i>
+            </Link>
+            <Link class="ui circular linkedin icon button" onClick={() => window.open("https://www.linkedin.com/in/dilan-madhusanka-533ba615b/", "_blank")} style={style}>
+                <i class="linkedin icon"></i>
+            </Link>
+            <Link class="ui circular github icon button black" onClick={() => window.open("https://github.com/DilanMadhusanka", "_blank")} style={style}>
+                <i class="github icon"></i>
+            </Link>
         </div>
     );
 }
