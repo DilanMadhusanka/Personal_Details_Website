@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const SocialMedia = () => {
     return (
@@ -7,17 +8,17 @@ const SocialMedia = () => {
                 <div class="ui relaxed horizontal list">
                     <div class="item">
                         <div className="content">
-                            <a className="header" href="https://www.facebook.com/dilan.madhusanka119" target="_blank"><i className="facebook square icon black big" /></a>
+                            <Link className="header" onClick={() => window.open("https://www.facebook.com/dilan.madhusanka119", "_blank")}><i className="facebook square icon black big" /></Link>
                         </div>
                     </div>
                     <div class="item">
                         <div class="content">
-                            <a class="header" href="https://www.linkedin.com/in/dilan-madhusanka-533ba615b/" target="_blank"><i className="linkedin icon black big" /></a>
+                            <Link class="header" onClick={() => window.open("https://www.linkedin.com/in/dilan-madhusanka-533ba615b/", "_blank")}><i className="linkedin icon black big" /></Link>
                         </div>
                     </div>
                     <div class="item">
                         <div class="content">
-                        <a class="header" href="https://github.com/DilanMadhusanka" target="_blank"><i className="github icon black big" /></a>
+                        <Link class="header" onClick={() => window.open("https://github.com/DilanMadhusanka", "_blank")}><i className="github icon black big" /></Link>
                         </div>
                     </div>
                 </div>
