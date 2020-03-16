@@ -6,7 +6,7 @@ import Home from './Home';
 import Education from './Education'
 import Skills from './Skills';
 import ContactMe from './ContactMe';
-import bg from '../images/backimg.jpg'
+import bg from '../images/back.jpg'
 
 const App = () => {
     return (
