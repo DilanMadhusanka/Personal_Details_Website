@@ -20,11 +20,8 @@ const Education = () => {
                                  Today it has become a leading school Sri Lanka
                             </span>
                         </div>
-                        <div className="description">
-                            <p></p>
-                        </div>
                         <div className="extra">
-                            Additional Details
+                            Primary Education
                         </div>
                     </div>
                 </div>
@@ -41,11 +38,8 @@ const Education = () => {
                                  Today it has become a leading school Sri Lanka
                             </span>
                         </div>
-                        <div className="description">
-                            <p></p>
-                        </div>
                         <div className="extra">
-                            Additional Details
+                            Secondary Education
                         </div>
                     </div>
                 </div>
@@ -61,11 +55,8 @@ const Education = () => {
                                 seven locations, six faculties and four institutions.
                             </span>
                         </div>
-                        <div className="description">
-                            <p></p>
-                        </div>
                         <div className="extra">
-                            Additional Details
+                            Higher Education
                         </div>
                     </div>
                 </div>
