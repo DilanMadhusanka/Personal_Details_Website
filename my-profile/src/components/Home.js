@@ -21,9 +21,10 @@ const Home = () => {
             </div>
 
             <div class="ui raised very padded text container segment">
-                {/* <h2 class="ui header">Dogs Roles with Humans</h2> */}
+                <h2 class="ui header">About Me</h2>
                 <p>I am undergraduate of Software Engineering in University of Kelaniya. Burn on 13th of November in 1996 and
-                home town is Rathnapura. I have followed the subjects as full stack developer about web and mobile.
+                home town is Rathnapura. I have followed the techniques as full stack developer about web and mobile. I involeve 
+                in music and Karate Martial art as curricular acivities.
                 </p>
             </div> <br />
             <SocialMedia />
