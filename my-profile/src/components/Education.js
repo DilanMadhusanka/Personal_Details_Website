@@ -13,7 +13,7 @@ const Education = () => {
                         <img src={vidya} alt="vidyakara isuru school"/>
                     </div>
                     <div className="content">
-                        <Link className="header" onClick={() => window.open("https://www.facebook.com/pages/RVidyakara-Isuru-school-Opanayaka/532608860104372", "_blank")}>R/ Vidyakara Isuru School</Link>
+                        <Link className="header" to="education" onClick={() => window.open("https://www.facebook.com/pages/RVidyakara-Isuru-school-Opanayaka/532608860104372", "_blank")}>R/ Vidyakara Isuru School</Link>
                         <div className="meta">
                             <span style={{color:"dark blue"}}>R/ Vidyakara Isuru School is a school situated in Opanayaka, near Pelmadulla, Sabaragamuwa Province, Sri Lanka.
                                  The school provides secondary education to boys and girls aged 11 to 19 and has a student population of around 3,500. 
@@ -31,7 +31,7 @@ const Education = () => {
                         <img src={scc} alt="scc" />
                     </div>
                     <div className="content">
-                        <Link className="header" onClick={() => window.open("https://www.facebook.com/sivalicc/", "_blank")}>Sivali Central College</Link>
+                        <Link className="header" to="education" onClick={() => window.open("https://www.facebook.com/sivalicc/", "_blank")}>Sivali Central College</Link>
                         <div className="meta">
                             <span>Sivali Central College is a school situated in Hidellana, near Ratnapura, Sabaragamuwa Province, Sri Lanka.
                                  The school provides secondary education to boys and girls aged 11 to 19 and has a student population of around 3,500. 
@@ -48,7 +48,7 @@ const Education = () => {
                         <img src={uok} alt="uok" />
                     </div>
                     <div className="content">
-                        <Link className="header" onClick={() => window.open("https://www.kln.ac.lk/index.php/en/", "_blank")}>University of Kelaniya</Link>
+                        <Link className="header" to="education" onClick={() => window.open("https://www.kln.ac.lk/index.php/en/", "_blank")}>University of Kelaniya</Link>
                         <div className="meta">
                             <span>The University of Kelaniya is a state university in Sri Lanka. 
                                 Just outside the municipal limits of Colombo, in the city of Kelaniya, the university has two major campuses, 

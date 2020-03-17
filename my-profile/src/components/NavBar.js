@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 class NavBar extends React.Component {
     render() {
+
         const style = { fontSize:"18px" }
+        
         return(
             <div className="ui inverted menu" style={{height:"50px"}}>
                 <Link to="/" className="red item active" style={style}>Home</Link>

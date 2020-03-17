@@ -6,29 +6,29 @@ const ContactUs = () => {
     return (
         <div className="ui container" style={{padding:"100px 0px 0px 0px"}}>
             <div className="ui stacked segment">
-            <div class="ui list huge">
-                <div class="item">
-                    <i class="phone icon"></i>
-                    <div class="content">
+            <div className="ui list huge">
+                <div className="item">
+                    <i className="phone icon"></i>
+                    <div className="content">
                         071 3287 289
                     </div>
                 </div>
-                <div class="item">
-                    <i class="at icon"></i>
-                    <div class="content">
+                <div className="item">
+                    <i className="at icon"></i>
+                    <div className="content">
                         dilan.madhusanka289@gmail.com
                     </div>
                 </div>
-                <div class="item">
-                    <i class="mail icon"></i>
-                    <div class="content">
+                <div className="item">
+                    <i className="mail icon"></i>
+                    <div className="content">
                         No 17, Main Street, Opanayaka
                     </div>
                 </div>
-                <div class="item">
-                    <i class="marker icon"></i>
-                    <div class="content">
-                        <Link onClick={() => window.open("https://goo.gl/maps/Q6BLXnAKZETBW8qf6", "_blank")}>My Location</Link>
+                <div className="item">
+                    <i className="marker icon"></i>
+                    <div className="content">
+                        <Link to="/contacts" onClick={() => window.open("https://goo.gl/maps/Q6BLXnAKZETBW8qf6", "_blank")}>My Location</Link>
                     </div>
                 </div>
             </div>
