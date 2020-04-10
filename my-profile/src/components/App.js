@@ -6,6 +6,7 @@ import Home from './Home';
 import Education from './Education'
 import Skills from './Skills';
 import ContactMe from './ContactMe';
+import ParticlesBg from 'particles-bg';
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path="/contacts" exact component={ContactMe} />
                 </Switch>
             </BrowserRouter>
+            <ParticlesBg bg={true} type="cobweb" />
         </div>
     );
 }
