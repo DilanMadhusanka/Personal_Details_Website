@@ -6,14 +6,10 @@ import Home from './Home';
 import Education from './Education'
 import Skills from './Skills';
 import ContactMe from './ContactMe';
-import bg from '../images/back.jpg'
 
 const App = () => {
     return (
-        <div style={{backgroundImage: `url(${bg})`,
-        backgroundSize: 'cover', 
-        backgroundPosition: 'center center',
-        backgroundRepeat: 'no-repeat', height:'100vh'}}>
+        <div>
             <BrowserRouter>
                 <NavBar />
                 <Switch>
